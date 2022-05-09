@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    border-radius: 1rem;
+    margin: 5rem;
+    padding: 1rem;
+    background-color: antiquewhite;
+    width: 100%;
+
+}
+.wholeImage {
+    align-items: center;
+    /* border: solid black; */
+    border-radius: 1rem;
+    background-color: white;
+    margin: 5rem;
+    padding: 1rem;
+}
+.qrImage {
+    background-color: blue;
+    border-radius: 1rem;
+}
+.image {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    padding: 4rem;
+}
+.words {
+    margin-top: 1rem;
+}
+.scan {
+    margin-top: 1rem;
+}
